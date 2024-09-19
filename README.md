@@ -35,8 +35,8 @@
 
 ## Screenshots
 
-![Screenshot 1](assets/screenshot1.png)
-![Screenshot 2](assets/screenshot2.png)
+![Screenshot 1](assets/image2.png)
+![Screenshot 2](assets/image.png)
 
 ## Contributing
 
