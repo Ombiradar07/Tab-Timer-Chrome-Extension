@@ -14,7 +14,7 @@
 
 ## Installation
 
-1. **Download the Extension**: [Link to download](#)
+1. **Download the Extension**: [The deployment is underway](#)
 2. **Open Chrome Browser**.
 3. **Go to Chrome Extensions Page**: Navigate to `chrome://extensions/`.
 4. **Enable Developer Mode**: Toggle the switch in the top-right corner.
