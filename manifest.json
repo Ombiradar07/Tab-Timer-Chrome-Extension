@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Timer",
+  "version": "1.2",
+  "description": "Track the time spent on each tab.",
+  "icons": {
+    "16": "assets/img16.png",
+    "48": "assets/img48.png",
+    "128": "assets/img128.png"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "notifications",
+    "alarms"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["main.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Tab Timer",
+    "default_icon": {
+      "16": "assets/img16.png",
+      "48": "assets/img48.png",
+      "128": "assets/img128.png"
+    }
+  }
+}

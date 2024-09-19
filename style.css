@@ -1,0 +1,139 @@
+html {
+    width: 800px;  /* max: 800px */
+    height: 600px; /* max: 600px */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+    position: relative;
+    vertical-align: middle;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #444;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: headerAnimation 1s ease-in-out;
+}
+
+@keyframes headerAnimation {
+    0% { transform: translateY(-10px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: containerAnimation 1s ease-in-out;
+}
+
+@keyframes containerAnimation {
+    0% { transform: scale(0.95); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.features,
+.how-it-works {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.features:hover,
+.how-it-works:hover {
+    background-color: #e0f7fa; /* Light cyan background on hover */
+    transform: translateY(-5px); /* Slight lift effect */
+}
+
+.features h2,
+.how-it-works h2 {
+    font-size: 18px;
+    margin-top: 0;
+    color: #00796b; /* Darker teal color */
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.features ul li {
+    margin: 5px 0;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.features ul li:hover {
+    background-color: #e0f2f1; /* Lighter teal on hover */
+}
+
+.screenshots img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.screenshots img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.contact {
+    text-align: center;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: contactAnimation 1s ease-in-out;
+}
+
+@keyframes contactAnimation {
+    0% { transform: scale(0.95); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    bottom: 0;
+}
+
+::-webkit-scrollbar {
+    display: none !important;
+}
+
+::-webkit-scrollbar-button {
+    display: none !important;
+}
