@@ -59,8 +59,7 @@ We welcome contributions to improve this project. If you have suggestions, bug r
 
 For any questions or further information, please contact:
 
-- **Email**: icoomkarofficial66@gamil.com
-- **LinkedIn**:https://www.linkedin.com/in/ob17/
+- **LinkedIn**:[Omkar Biradar](https://www.linkedin.com/in/ob17/)
 
 ---
 
