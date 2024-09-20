@@ -60,7 +60,7 @@ We welcome contributions to improve this project. If you have suggestions, bug r
 For any questions or further information, please contact:
 
 - **Email**: icoomkarofficial66@gamil.com
-- **GitHub**: [Your GitHub Profile](https://github.com/Ombiradar07)
+- **LinkedIn**:https://www.linkedin.com/in/ob17/
 
 ---
 
