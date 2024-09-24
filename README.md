@@ -5,8 +5,6 @@
 **Tab Timer** is a Chrome extension designed to track the time spent on each tab in your browser. It allows you to monitor your browsing habits, manage your productivity, and gain insights into how you use your tabs.
 
 
-Give me the file in same format 
-
 ## Features
 
 - **Real-time Tracking**: Automatically tracks the time spent on each tab.
